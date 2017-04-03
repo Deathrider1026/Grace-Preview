@@ -1,0 +1,116 @@
+/* DEBUG */
+* {font-family: 'Lato', sans-serif;}
+/* Main Default */
+
+body {margin: 0px;}
+
+/* Container */
+
+.cule-container {padding: 20px; padding-top: 5px; padding-bottom: 5px; overflow: hidden;}
+.cule-container-set {padding: 20px; padding-top: 5px; padding-bottom: 5px; text-align: center; overflow: hidden;}
+.cule-container-set hr {width: 77%;}
+.cule-set {text-align: center;}
+.cule-set hr {width: 77%;}
+
+/**** Container Help ****/
+
+.align-center {text-align: center;}
+.align-left {text-align: left;}
+.align-right {text-align: right;}
+
+/* Rows */
+
+.cule-row {clear: both;}
+.cule-row div[class*="clm-"] {float: left;}
+
+/* Help - Tools */
+
+.shadow {box-shadow: 1px 1px 21px black;} /* Box Shadow */
+.shadow-hover {transition: 1s all ease;} /* Box Shadow Hover Effect */
+.shadow-hover:hover {box-shadow: 1px 1px 21px black;}
+.round {border-radius: .3pc;}
+.round div {border-radius: .3pc;} /* Round Border */
+.float-l {float: left;}
+.float-r {float: right;}
+#OF {width: 25%;}
+#HF {width: 50%;}
+#TF {width: 75%;}
+#FF {width: 100%;}
+
+/* Button */
+
+button {border: none; background-color: #34495e; color: #ECF0F1; font-size: 30px; padding: 1%;}
+
+/* Colors - Background */
+
+hr {border: 1px solid black; background-color: black;}
+.blue {background-color: #87f0f9;}
+.red {background-color: #f98787;}
+.green {background-color: #8bf987;}
+.yellow {background-color: #f8f987;}
+.wetblue  {background-color: #34495e;}
+
+/* Footer */
+
+.cule-footer {padding: 2%}
+
+/* Fixed - Media */
+
+div[class*="cule-media"] {position: fixed;}
+.cule-media-vertical img {clear: left;}
+.left {left: 0px;}
+.top {top: 0px;}
+.bottom {bottom: 0px;}
+.right {right: 0px;}
+.cover {left: 0px; right: 0px; bottom: 0px; top: 0px;}
+div[class*="cule-media"] img {width: 60px; margin: 5px;}
+
+/* Menu - Default */
+
+.cule-menu-logo {}
+
+/* Column */
+
+div[class*="clm-"] p  {word-wrap: break-word;}
+.clm-1 {width: 9%; margin: .25%; padding: .25%;} .clm-1 p { word-wrap: break-word;}
+.clm-2 {width: 19%; margin: .25%; padding: .25%;}
+.clm-3 {width: 29%; margin: .25%; padding: .25%;}
+.clm-4 {width: 39%; margin: .25%; padding: .25%;}
+.clm-5 {width: 49%; margin: .25%; padding: .25%;}
+.clm-6 {width: 59%; margin: .25%; padding: .25%;}
+.clm-7 {width: 69%; margin: .25%; padding: .25%;}
+.clm-8 {width: 79%; margin: .25%; padding: .25%;}
+.clm-9 {width: 89%; margin: .25%; padding: .25%;}
+.clm-10 {width: 99%; margin: .25%; padding: .25%;}
+.clm-special-3 {width: 32.3333%; margin: .25%; padding: .25%;}
+.clm-special-4 {width: 24%; margin: .25%; padding: .25%;}
+
+/* Devices - Mobile - 322px */
+
+@media screen and (max-width: 640px) {
+  .cule-row div {float: none;}
+  div[class*="clm-"] {width:89%; margin: 5%;}
+  .cule-container {width: 100%;}
+}
+/* Devices - Tablet - 770px */
+
+@media screen and (max-width: 770px) {
+  .clm-1 {width: 6%; margin: 1%; padding: 1%;} .clm-1 p { word-wrap: break-word;}
+.clm-2 {width: 16%; margin: 1%; padding: 1%;}
+.clm-3 {width: 26%; margin: 1%; padding: 1%;}
+.clm-4 {width: 36%; margin: 1%; padding: 1%;}
+.clm-5 {width: 46%; margin: 1%; padding: 1%;}
+.clm-6 {width: 56%; margin: 1%; padding: 1%;}
+.clm-7 {width: 66%; margin: 1%; padding: 1%;}
+.clm-8 {width: 76%; margin: 1%; padding: 1%;}
+.clm-9 {width: 86%; margin: 1%; padding: 1%;}
+.clm-10 {width: 96%; margin: 1%; padding: 1%;}
+.clm-special-3 {width: 32.3333%; margin: .25%; padding: .25%;}
+.clm-special-4 {width: 24%; margin: .25%; padding: .25%;}
+}
+/* Devices - Laptop - 1026px */
+
+@media screen and (max-width: 1026px) {}
+/* Devices - Desktop - 1433px */
+
+@media screen and (max-width: 1033px) {}
